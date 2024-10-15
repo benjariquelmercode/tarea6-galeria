@@ -312,71 +312,68 @@ footer {
 @media (min-width: 1024px) {
     .galeria {
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(5, 50vw);
+    
+        grid-template-rows: repeat(5, 23vw);
     }
     
-    .galeria img {
-        width: 100%;
-        
-    }
-
     .img1 {
         grid-column: span 2;
         grid-row: span 2;
     }
-
+    
     .img2 {
         grid-column: 3;
         grid-row: 1;
     }
-
+    
     .img3 {
         grid-column: 4;
         grid-row: 1;
     }
-
+    
     .img4 {
         grid-column: 4;
         grid-row: 2;
     }
-
+    
     .img5 {
         grid-column: 3;
         grid-row: span 2;
     }
-
+    
     .img6 {
         grid-column: 1;
         grid-row: 3;
     }
-
+    
     .img7 {
         grid-column: 2;
         grid-row: 3;
     }
-
+    
     .img8 {
         grid-column: 4;
         grid-row: 3;
     }
-
+    
     .img9 {
         grid-column: 1;
         grid-row: 4;
     }
-
+    
     .img10 {
         grid-column: 2;
         grid-row: 4;
     }
-
+    
+    .img11 {
+        grid-column: span 4;
+        grid-row: 5;
+    }
+    
     .img12 {
         grid-column: span 2;
         grid-row: 4;
     }
-
-    .img11 {
-        grid-column: span 4;
-        grid-row:  5;
+    
     }
-}
